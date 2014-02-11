@@ -122,6 +122,8 @@ void testApp::setup(){
         // add to mesh
         ofVec3f currentHotelPoint(mapLongitude, mapLatitude, mapZ);
         mesh.addVertex(currentHotelPoint);
+        ofColor c(240, 240, 240);
+        mesh.addColor(c);
         
         hotelCount++;
 
@@ -146,7 +148,8 @@ void testApp::update(){
                 ofVec3f currentHotelPoint(mapLongitude, mapLatitude, mapZ);
                 hotelTypeMesh.addVertex(currentHotelPoint);
                 
-                ofColor c(210, 225, 7);
+//                ofColor c(210, 225, 7);
+                ofColor c(255, 100, 0);
                 hotelTypeMesh.addColor(c);
                 
                 hotelTypeCount++;
