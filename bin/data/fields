@@ -1,0 +1,22 @@
+id~								int
+hotelName~				string
+stars~						int
+price~						int
+cityName~					string
+stateName~				string
+countryCode~			string
+countryName~			string
+address~					string
+location~					string
+url~							string
+tripadvisorUrl~		string
+latitude~					float
+longitude~				float
+latlong~					float
+propertyType~			int
+chainId~					int
+rooms~						
+facilities~				string
+checkIn~					
+checkOut~
+rating
